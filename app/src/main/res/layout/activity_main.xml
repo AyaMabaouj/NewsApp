@@ -17,7 +17,98 @@
     android:textSize="30sp">
 
 </TextView>
+<HorizontalScrollView
+    android:layout_margin="6dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+      <Button
+          android:textSize="12sp"
+          android:text="business"
+          android:backgroundTint="#00BCD4"
+          android:padding="6dp"
+          android:layout_margin="6dp"
+          android:id="@+id/btn1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+      </Button>
 
+      <Button
+          android:textSize="12sp"
+          android:text="entertainment"
+          android:padding="6dp"
+          android:layout_margin="6dp"
+          android:id="@+id/btn2"
+          android:backgroundTint="#00BCD4"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+      </Button>
+      <Button
+          android:textSize="12sp"
+          android:text="general"
+          android:padding="6dp"
+          android:backgroundTint="#00BCD4"
+          android:layout_margin="6dp"
+          android:id="@+id/btn3"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+      </Button>
+      <Button
+          android:textSize="12sp"
+          android:text="health"
+          android:padding="6dp"
+          android:backgroundTint="#00BCD4"
+          android:layout_margin="6dp"
+          android:id="@+id/btn4"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+      </Button>
+      <Button
+          android:textSize="12sp"
+          android:text="science"
+          android:padding="6dp"
+          android:backgroundTint="#00BCD4"
+          android:layout_margin="6dp"
+          android:id="@+id/btn5"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+      </Button>
+      <Button
+          android:textSize="12sp"
+          android:text="sports"
+          android:backgroundTint="#00BCD4"
+          android:padding="6dp"
+          android:layout_margin="6dp"
+          android:id="@+id/btn6"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+      </Button>
+      <Button
+          android:textSize="12sp"
+          android:text="technology"
+          android:padding="6dp"
+          android:backgroundTint="#00BCD4"
+          android:layout_margin="6dp"
+          android:id="@+id/btn7"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content">
+      </Button>
+   </LinearLayout>
+</HorizontalScrollView>
+  <androidx.cardview.widget.CardView
+      android:layout_margin="14dp"
+      android:elevation="8dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+     <androidx.appcompat.widget.SearchView
+         android:id="@+id/searchview"
+         app:iconifiedByDefault="false"
+         app:defaultQueryHint="Search News ..."
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"></androidx.appcompat.widget.SearchView>
+  </androidx.cardview.widget.CardView>
    <androidx.recyclerview.widget.RecyclerView
        android:id="@+id/rcy"
        android:layout_marginTop="20dp"
